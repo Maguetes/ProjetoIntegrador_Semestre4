@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Controle de Boletos</title>
+  </head>
+  <body>
+    <h2>Controle de  Boletos</h2>
+
+    <div class="container">
+      <h4>Saldo (Boletos a vencer )</h4>
+      
+      <h1 id="balance" class="balance">R$ 0.00</h1>
+
+      
+      <h3>Boletos</h3>
+      
+      <ul id="transactions" class="transactions">
+        <!-- <li class="minus">
+          Salário <span>-$400</span><button class="delete-btn">x</button>
+        </li> -->
+      </ul>
+      <p>
+				<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#addBoletoModal">
+					+ ADICIONAR NOVO BOLETO
+				</button>
+			</p>
