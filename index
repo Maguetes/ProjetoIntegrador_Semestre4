@@ -1,29 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Controle de Boletos</title>
-  </head>
-  <body>
-    <h2>Controle de  Boletos</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"
+    <link rel="stylesheet" href="custom.css"
 
-    <div class="container">
-      <h4>Saldo (Boletos a vencer )</h4>
-      
-      <h1 id="balance" class="balance">R$ 0.00</h1>
+</head>
+<body>
+    <h1>BILLING PLANNER</h1> 
 
-      
-      <h3>Boletos</h3>
-      
-      <ul id="transactions" class="transactions">
-        <!-- <li class="minus">
-          Salário <span>-$400</span><button class="delete-btn">x</button>
-        </li> -->
-      </ul>
-      <p>
-				<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#addBoletoModal">
-					+ ADICIONAR NOVO BOLETO
-				</button>
-			</p>
+<div class="inc-exp-container1">
+    <div class ="container">    
+    <h2>Monthly Exprenses</h2>
+    <h2> PAST DUE</h2>
+<div class="inc-exp-container">
+    <div>
+        <h3>Total</h3>
+        <p id="money.venc" class="money venc"> R$0,00 </p>
+    </div> 
+</div>
+<div class ="container">
+    <h3>Monthly Expenses - REGISTERED </h3>
+<table id="data-table">
+    <thead>
+        <tr>
+            <th>DUE DATE</th>
+            <th>DESCRIPTION</th>
+            <th>VALUE (R$)</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+    </table>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="inc-exp-container2">
+    <div></div>
+<div class ="container">    
+        <h6>Monthly Exprenses </h6>
+        <h6>Due</h6>
+    <div class="inc-exp-container">
+        <div>
+            <h3>Total</h3>
+            <p id="money.venc" class="money venc"> R$0,00 </p>
+        </div> 
+    </div>
+    <div class ="container">
+        <h3>Monthly Expenses - REGISTERED</h3>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>DUE DATE</th>
+                <th>DESCRIPTION</th>
+                <th>VALUE (R$)</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        </table>
+    </section>
+    </div>
+</div>
+    </div>
+</div>
+<p>
